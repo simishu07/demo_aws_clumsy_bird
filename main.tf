@@ -1,14 +1,4 @@
-#Update changes here
 
-# Demo for Wipro
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">=6.0.0"
-    }
-  }
-}
 
 #Provider for AWS -- Adding a comment to see if changes occur in my AWS.
 provider "aws" {
